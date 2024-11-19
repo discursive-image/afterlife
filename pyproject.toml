@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "afterlife"
+authors = [
+    {name = "Scrolling Years", year = 2023},
+]
+description = "Scrolling Years afterlife NN"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "torch",
+]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+dev = ["python-lsp-server", "black", "jupyterlab"]
+
+[project.scripts]
