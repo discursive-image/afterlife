@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "afterlife"
 authors = [
-    {name = "Scrolling Years", year = 2023},
+    {name = "Scrolling Years"},
 ]
 description = "Scrolling Years afterlife NN"
 readme = "README.md"
