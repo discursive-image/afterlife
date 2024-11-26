@@ -21,6 +21,6 @@ dependencies = [
 dynamic = ["version"]
 
 [project.optional-dependencies]
-dev = ["python-lsp-server", "black", "jupyterlab"]
+dev = ["python-lsp-server", "black", "jupyterlab", "matplotlib"]
 
 [project.scripts]
