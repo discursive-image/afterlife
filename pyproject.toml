@@ -16,11 +16,12 @@ classifiers = [
 ]
 dependencies = [
     "torch",
-    "numpy"
+    "numpy",
+    "accelerate"
 ]
 dynamic = ["version"]
 
 [project.optional-dependencies]
-dev = ["python-lsp-server", "black", "jupyterlab", "matplotlib"]
+dev = ["python-lsp-server", "black", "jupyterlab", "matplotlib", "wandb", "tqdm"]
 
 [project.scripts]
