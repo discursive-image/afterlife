@@ -17,7 +17,8 @@ classifiers = [
 dependencies = [
     "torch",
     "numpy",
-    "accelerate"
+    "accelerate",
+    "fastapi[standard]"
 ]
 dynamic = ["version"]
 

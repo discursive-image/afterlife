@@ -1,0 +1,19 @@
+{
+  "lstm_layers": {
+    "value": 3
+  },
+  "dense_layers": {
+    "value": [
+      128,
+      64,
+      32,
+      16
+    ]
+  },
+  "sequence_length": {
+    "value": 40
+  },
+  "hidden_dim": {
+    "value": 128
+  }
+}
