@@ -5,10 +5,6 @@ COPY src src
 COPY pyproject.toml .
 RUN pip install .
 
-COPY models .
+COPY models models
 
 CMD ["fastapi", "run", "src/afterlife/cmds/server.py", "--port", "80"]
-
-
-
-
