@@ -7,4 +7,4 @@ RUN pip install .
 
 COPY models models
 
-CMD ["fastapi", "run", "src/afterlife/cmds/server.py", "--port", "80"]
+CMD ["fastapi", "run", "src/afterlife/cmds/server.py", "--port", "6000"]
